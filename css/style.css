@@ -1,0 +1,131 @@
+.btn-secondry, .btn-primary {
+  top: 20px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  max-height: 50px;
+  max-width: 30px !important;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  word-spacing: 0.7px;
+  transition: 0.07s ease-in-out;
+}
+.btn-secondry:hover, .btn-primary:hover {
+  color: #fdfdfd !important;
+  border-radius: 14px;
+  border: 1px solid rgba(1, 14, 49, 0.425);
+  box-shadow: inset 0 0 20px 20px rgba(1, 14, 49, 0.425);
+}
+
+.btn-primary {
+  border: 1px solid #989fe0;
+  color: #fdfdfd !important;
+}
+
+.btn-secondry {
+  background-color: #5775a0;
+  margin: 0 0 0 15px;
+}
+
+.btn-third {
+  transition: 0.07s ease-in-out;
+  background-color: #5775a0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: fixed;
+  margin: 50px 70px;
+  z-index: 100;
+  box-shadow: 0px 0px 20px 0px #00000052 !important;
+}
+
+.btn-third:hover {
+  background-color: #7690b4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdfdfd;
+  font-family: Arial;
+  line-height: 1.6;
+  height: 1100px;
+}
+body .showcase {
+  background-color: #3c516e;
+  color: #fdfdfd;
+  height: 500px;
+}
+body .showcase nav {
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #f79e76;
+}
+body .showcase nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+body .showcase nav ul li {
+  font-size: 20px;
+  margin: 5px 15px 0 0;
+  transition: 0.2s ease-in-out;
+}
+body .showcase nav .logo {
+  font-size: 34px;
+  letter-spacing: -3px;
+}
+body .showcase nav .logo-color {
+  color: #f79e76;
+}
+body .showcase .container {
+  max-width: 80%;
+  padding: 0 10px;
+  margin: 0 auto;
+  overflow: visible;
+}
+body .showcase .container a {
+  color: #f7f7f7;
+}
+body .showcase .container a:hover {
+  color: #f79e76;
+}
+body .showcase .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body .showcase .grid .colored-heading {
+  color: #f79e76;
+}
+body .showcase .grid img {
+  width: 120%;
+  justify-content: flex-end;
+  position: relative;
+  top: 40px;
+  right: 80px;
+}
+body .showcase .grid h1 {
+  margin: 25px 0;
+  font-size: 55px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+body .showcase .grid p {
+  margin: 0px 0 40px 0;
+  width: 85%;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
